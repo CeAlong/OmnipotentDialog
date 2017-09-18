@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="OmnipotentDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Animation_Dialog_Scale" >
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_scale</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_scale</item>
+    </style>
+</resources>
