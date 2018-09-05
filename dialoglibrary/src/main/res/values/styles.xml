@@ -11,4 +11,9 @@
         <item name="android:windowEnterAnimation">@anim/dialog_enter_scale</item>
         <item name="android:windowExitAnimation">@anim/dialog_exit_scale</item>
     </style>
+
+    <style name="Animation_Dialog_Down" >
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_down</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_down</item>
+    </style>
 </resources>

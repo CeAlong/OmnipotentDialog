@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         tvHello = (TextView) findViewById(R.id.tv_hello);
-        tvWorld = (TextView) findViewById(tv_word);
+        tvWorld = (TextView) findViewById(R.id.tv_word);
 
         tvWorld.setOnClickListener(this);
     }
@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                .matchHeight(true)
 //                .matchParent()
                 .setGravity(Gravity.BOTTOM)
-                .setAnimation(R.style.Animation_Dialog_Scale)
-                .setCancelable(false)
+                .setAnimation(R.style.Animation_Dialog_Down)
+                .setCancelable(true)
                 .show();
     }
 }
